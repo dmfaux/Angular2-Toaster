@@ -40,11 +40,11 @@ export class ToasterConfig implements IToasterConfig {
             warning: 'toast-warning'
         };
         this.iconClasses = configOverrides.iconClasses || {
-            error: 'icon-error',
-            info: 'icon-info',
-            wait: 'icon-wait',
-            success: 'icon-success',
-            warning: 'icon-warning'
+            error: 'toast-icon-error',
+            info: 'toast-icon-info',
+            wait: 'toast-icon-wait',
+            success: 'toast-icon-success',
+            warning: 'toast-icon-warning'
         };
         this.bodyOutputType = configOverrides.bodyOutputType || BodyOutputType.Default;
         this.bodyTemplate = configOverrides.bodyTemplate || 'toasterBodyTmpl.html';
